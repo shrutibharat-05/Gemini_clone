@@ -1,0 +1,122 @@
+/* .sidebar{
+    min-height: 100vh;
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #bec4cb;
+    padding:15px 20px;
+}
+
+
+.sidebar img{
+    width: 30px;
+}
+*/
+/* .sidebar .menu{
+    display: block;
+    margin-left: 10px;
+    cursor:pointer; 
+}  */
+ /* Styling for the entire sidebar */
+
+
+
+  
+  /* Add new styles for the collapsed state */
+  .sidebar.collapsed {
+    width:150px; /* Reduced width when collapsed */
+  }
+  
+.sidebar  {
+    
+    width:150px;
+    min-height: 100vh;
+    background-color: #b9afaf;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #ddd;
+    transition: width 0.3s ease;
+  }
+ 
+  /* Styling for the top section of the sidebar */
+  .top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+  }
+  
+  /* Styling for the main chat section */
+  .main-chat {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .main-chat:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Styling for the recent section */
+  .recent {
+    margin-top: 20px;
+  }
+  
+  .recent-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .recent-entry {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .recent-entry:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Styling for the bottom section of the sidebar */
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Styling for the bottom items */
+  .bottom-items .recent-entry {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .bottom-items .recent-entry:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Styling for images/icons */
+  img {
+    width: 20px;
+    height: 20px;
+  }
+  
